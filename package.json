@@ -1,0 +1,20 @@
+{
+  "name": "ts-cdn-cache-sim",
+  "version": "1.0.0",
+  "description": "CDN cache simulation with LRU + consistent hash routing",
+  "main": "main.ts",
+  "scripts": {
+    "start": "npx tsx main.ts"
+  },
+  "keywords": ["typescript", "cdn", "cache", "consistent-hashing", "networking"],
+  "author": "Mahmoud ElNemer <sultanelnemer@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElNeMeR70/ts-cdn-cache-sim.git"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
